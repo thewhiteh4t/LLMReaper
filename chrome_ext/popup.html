@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        overflow: hidden;
+        background: #09090b;
+      }
+
+      body {
+        width: 380px;
+        background: #09090b;
+        color: #fafafa;
+        font-family: "Inter", sans-serif;
+        overflow: hidden;
+        border: 1px solid #1f2937;
+      }
+
+      .app {
+        padding: 18px;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .logo {
+        width: 38px;
+        height: 38px;
+        border-radius: 12px;
+
+        background: linear-gradient(135deg, #2563eb, #60a5fa);
+
+        box-shadow: 0 0 30px rgba(59, 130, 246, 0.25);
+      }
+
+      .brand h1 {
+        font-size: 15px;
+        font-weight: 700;
+      }
+
+      .brand p {
+        font-size: 12px;
+        color: #71717a;
+      }
+
+      .status {
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: #0f172a;
+        border: 1px solid #1e293b;
+        color: #60a5fa;
+        font-size: 11px;
+        font-weight: 600;
+      }
+
+      .card {
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.02),
+          rgba(255, 255, 255, 0.01)
+        );
+
+        border: 1px solid #27272a;
+        border-radius: 20px;
+        padding: 16px;
+        margin-bottom: 14px;
+
+        backdrop-filter: blur(10px);
+      }
+
+      .card-title {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+
+      .card-sub {
+        font-size: 12px;
+        color: #71717a;
+        margin-bottom: 16px;
+      }
+
+      .preset {
+        background: #18181b;
+        border: 1px solid #27272a;
+        border-radius: 14px;
+        padding: 14px;
+        margin-bottom: 10px;
+        cursor: pointer;
+
+        transition:
+          background 0.15s ease,
+          border-color 0.15s ease,
+          transform 0.15s ease;
+      }
+
+      .preset:last-child {
+        margin-bottom: 0;
+      }
+
+      .preset:hover {
+        border-color: #3b82f6;
+        background: #111827;
+        transform: translateY(-1px);
+      }
+
+      .preset-title {
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+
+      .preset-desc {
+        font-size: 12px;
+        color: #71717a;
+        line-height: 1.5;
+      }
+
+      .footer {
+        margin-top: 2px;
+        text-align: center;
+        font-size: 11px;
+        color: #52525b;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="header">
+        <div class="brand">
+          <div class="logo"></div>
+
+          <div>
+            <h1>Xentiqo</h1>
+            <p>AI Workflow Assistant</p>
+          </div>
+        </div>
+
+        <div class="status">ACTIVE</div>
+      </div>
+
+      <div class="card">
+        <div class="card-title">Quick Actions</div>
+
+        <div class="card-sub">One-click prompt injection</div>
+
+        <div
+          class="preset"
+          data-prompt="Summarize this conversation into concise technical notes with key findings and action items."
+        >
+          <div class="preset-title">Technical Summary</div>
+
+          <div class="preset-desc">Generate structured concise notes</div>
+        </div>
+
+        <div
+          class="preset"
+          data-prompt="Analyze the following code for vulnerabilities, insecure patterns and remediation recommendations."
+        >
+          <div class="preset-title">Security Review</div>
+
+          <div class="preset-desc">Security-focused code analysis</div>
+        </div>
+
+        <div
+          class="preset"
+          data-prompt="Rewrite this response into professional documentation format with implementation details and headings."
+        >
+          <div class="preset-title">Documentation Mode</div>
+
+          <div class="preset-desc">Convert AI responses into docs</div>
+        </div>
+      </div>
+
+      <div class="footer">ChatGPT • Claude • Gemini</div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
