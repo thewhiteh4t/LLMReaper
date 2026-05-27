@@ -1,11 +1,9 @@
-# LLMReaper
-
 <p align="center">
   <img src="https://res.cloudinary.com/dg5ijxsap/image/upload/v1779852463/llmreaper_banner_new_neahso.jpg" alt="LLMReaper created by Lohitya Pushkar (thewhiteh4t)" width="100%">
 </p>
 
 <p align="center">
-  <strong>Passive Conversation Exfiltration Research for Modern LLM Platforms</strong>
+  <strong>Passive LLM Conversation Capture & Sensitive Data Exposure Research</strong>
 </p>
 
 <p align="center">
@@ -23,6 +21,8 @@
 LLMReaper is a **proof-of-concept** security research demonstrating how browser extensions with standard DOM access can silently observe, capture, and scan AI platform conversations for accidentally exposed sensitive data without any special permissions, network interception, or privilege escalation.
 
 Threat actors constantly upload malicious browser extensions mimicking the real thing and social engineer users on a large scale.
+
+![](https://res.cloudinary.com/dg5ijxsap/image/upload/v1779868680/2026-05-27_13-27_a2agpx.png)
 
 ## How it works
 
