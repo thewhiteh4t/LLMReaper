@@ -1,7 +1,7 @@
 # LLMReaper
 
 <p align="center">
-  <img src="https://res.cloudinary.com/dg5ijxsap/image/upload/v1779825681/llmreaper_banner_yaptq9.jpg" alt="LLMReaper created by Lohitya Pushkar (thewhiteh4t)" width="100%">
+  <img src="https://res.cloudinary.com/dg5ijxsap/image/upload/v1779852463/llmreaper_banner_new_neahso.jpg" alt="LLMReaper created by Lohitya Pushkar (thewhiteh4t)" width="100%">
 </p>
 
 <p align="center">
