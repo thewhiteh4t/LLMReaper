@@ -26,7 +26,7 @@ Threat actors constantly upload malicious browser extensions mimicking the real 
 
 ## How it works
 
-> [!INFORMATION]
+> [!NOTE]
 > Detailed blogpost : https://thewhiteh4t.github.io/blog/ai-chat-llmreaper/
 
 - An unpacked chrome extension is provided which shows the **social engineering** aspect as well as the conversation capture.
